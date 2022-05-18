@@ -3,11 +3,11 @@
 }
 main{
    text-align: center;
-   height: 100vh;
    width: 100%;
 }
 
-h1{
+h1{ 
+    text-align: center;
     color: white;
     background-color: red;
     padding: 10px 30px;
@@ -18,17 +18,25 @@ main img{
     width: 250px;
     border-radius: 50%;
 }
+main img:hover{
+    padding: 10px;
+    border: 10px solid rgb(98, 0, 255);
+    border-radius: 50%;
+    transition: .5s;
+}
 
 h3{
     border-radius: 10px;
     padding: 10px;
     margin:30px 42%;
     border: 1px solid rgba(141, 141, 34, 0.804);
+  
 }
 h3:hover{
     transition: .3s;
     color: white;
     background-color: red;
+    box-shadow: slategray 5px 5px 1px ;
 }
 .watch{
     border-color: transparent;
@@ -41,6 +49,7 @@ h3:hover{
 .watch:hover{
     background-color: rgba(244, 65, 65, 0.927);
     transition: .3s;
+    box-shadow: slategray 5px 5px 1px ;
 }
 .watchlater{
     border-radius: 10px;
@@ -53,12 +62,15 @@ h3:hover{
    transition: .3s;
     color: white;
     background-color: red;
+    box-shadow: slategray 5px 5px 1px ;
 }
 footer{
+    text-align: center;
     padding: 30px 0px;
     background-color: red;
 }
 footer a{
+    
     color: white;
     text-decoration: none;
     margin: 40px;
